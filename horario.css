@@ -1,0 +1,132 @@
+/* Todo o projeto */
+* {
+  padding: 0;
+  margin: auto;
+}
+
+.principal {
+  width: 100%;
+  height: 90vh;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Cabeçalho */
+header {
+  background: #00A86B;
+  width: 100%;
+  height: 15%;
+  display: flex;
+  margin-top: 0%;
+}
+
+#header {
+  width: 70%;
+  display: flex;
+  margin-left: 5vh;
+}
+
+/* Textos */
+#cabecalho {
+    display: flex;
+    font-size: 170%;
+    margin-left: 50%;
+    color: rgb(238, 255, 236);
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+/* Lado */
+#lado {
+background-color: #c4b368;
+width: 15%;
+height: 85%;
+margin: auto;
+margin-left: 0%;
+margin-top: 0%;
+margin-bottom: 0%;
+}
+
+.info, a {
+font-size: 18px;
+margin-left: 10%;
+margin-top: 8%;
+color: #f8f7c0;
+text-decoration: none;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info, a:hover {
+  transition: .2s;
+  color: #7e4700;
+  font-size: 22px;
+}
+
+/* Centro */
+body {
+    background-color: #f7edd9;
+}
+
+/* Primeira parte exibição*/
+
+#centro {
+  background: rgb(252, 252, 252);
+  border-color: #08442c;
+  border-style:groove ;
+  border-radius: 6%;
+  width: 40vh;
+  height: 20vh;
+  margin-left: 5%;
+  margin-top: 5vh;
+  padding: 0;
+}
+
+
+/* Rodapé*/
+footer {
+  display: flex;
+  width: 100%;
+  margin-top: 0%;
+  background: #08442c;
+}
+
+.parte1 {
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom:3vh;
+  color: #77e6b9;
+  font-weight: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* HORAS CSS */
+#horario {
+  background: rgb(252, 252, 252);
+  border-color: #08442c;
+  border-style:groove ;
+  border-radius: 6%;
+  width: 28vh;
+  display: flex;
+  height: 60vh;
+  margin-top: 5vh;
+}
+
+#horario:hover {
+  transform: scale(1.1)
+}
+
+table, tr,td {
+    margin-left: 6%;
+    margin-right: 4%;
+    width: 30vh;
+    height: 13vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+th {
+    color:#ffffff;
+    font-weight: bold;
+    background-color: #00804d;
+    border-radius: 20%;
+} 
+

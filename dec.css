@@ -1,0 +1,179 @@
+/* Todo o projeto */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.principal {
+  width: 100%;
+  height: 90vh;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Cabeçalho */
+header {
+  background: #00A86B;
+  width: 100%;
+  height: 15%;
+  display: flex;
+}
+
+#header {
+  width: 70%;
+  display: flex;
+  margin-left: 5vh;
+}
+
+/* Textos */
+#cabecalho {
+    display: flex;
+    font-size: 170%;
+    margin-left: 50%;
+    margin-top: 3%;
+    color: rgb(238, 255, 236);
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+/* Lado */
+#lado {
+background-color: #c4b368;
+width: 15%;
+height: 81%;
+}
+
+.info, a {
+font-size: 18px;
+margin-left: 10%;
+margin-top: 8%;
+color: #f8f7c0;
+text-decoration: none;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info, a:hover {
+  transition: .2s;
+  color: #7e4700;
+  font-size: 22px;
+}
+/* Centro */
+body {
+    background-color: #f7edd9;
+}
+
+/* Primeira parte exibição*/
+#centru {
+  background-color: #f1cea6;
+  border-radius: 20%;
+  width: 50vh;
+  height: 5vh;
+  margin-left: 3%;
+  margin-top: 5vh;
+  padding: 0;
+  font-size: 100%;
+}
+
+#centro {
+  background: rgb(252, 252, 252);
+  border-color: #08442c;
+  display: inline;
+  border-style:groove ;
+  border-radius: 6%;
+  width: 40vh;
+  height: 20vh;
+  margin-left: 5%;
+  margin-top: 5vh;
+  padding: 0;
+}
+
+#centr {
+  background: rgb(252, 252, 252);
+  border-color: #08442c;
+  border-style:groove ;
+  border-radius: 6%;
+  width: 40vh;
+  height: 20vh;
+  margin-left: 0%;
+  margin-top: 22vh;
+}
+
+#letras {
+  text-align: justify;
+  border-radius: 20%;
+  width: 90vh;
+  height: 5vh;
+  margin-left: 5%;
+  font-size: 115%;
+  color:  #08442c;
+  margin-top: 2%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Segunda parte exibição*/
+
+#letrass {
+  text-align: justify;
+  border-radius: 20%;
+  width: 90vh;
+  height: 5vh;
+  margin-left: 5%;
+  font-size: 115%;
+  color:  #08442c;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#centra { background-color: #f1cea6;
+border-radius: 20%;
+width: 50vh;
+height: 5vh;
+margin-left: 3%;
+margin-top: 27vh;
+padding: 0;
+}
+
+#letrasx {
+  text-align: justify;
+  border-radius: 20%;
+  width: 90vh;
+  height: 5vh;
+  margin-top: 6%;
+  font-size: 115%;
+  color:  #08442c;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#imagem {
+  margin-top: 3%;
+  width:80%;
+  height: 80%;
+  background: url("princesa.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+#imagem2 {
+  width:100%;
+  height: 100%;
+  background: url("onibus.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+/* Rodapé*/
+footer {
+  display: flex;
+  width: 100%;
+  height: 15%;
+  flex-wrap: wrap;
+  background: #08442c;
+}
+
+.parte1 {
+  margin: auto;
+  margin-bottom:3%;
+  color: #77e6b9;
+  font-weight: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

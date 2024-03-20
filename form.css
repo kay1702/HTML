@@ -1,0 +1,139 @@
+.principal {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-columns: 100px 400px 150px;
+    grid-template-areas: "cabecalho cabecalho" 
+                         "secao barra-lateral" 
+                         "rodape rodape";
+}
+
+body {
+    background: rgb(192,255,249);
+    background: radial-gradient(circle, rgba(192,255,249,1) 0%, rgba(9,96,121,1) 93%);
+}
+
+/* Fomrulário Principal */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 40%;
+    margin-top: 3%;
+  }
+
+  .formum {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+  }
+
+/*  Alinhamento formulário*/
+  .form label {
+    position: relative;
+  }
+
+   /*  Estilização Formulário: tópicos */
+
+  .form label .input {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+  }
+
+
+  /* Animação texto */
+
+  .form label .input + span {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: grey;
+    font-size: 0.9em; /*  alteração de tamanho */
+    cursor: text;
+    transition: 0.3s ease; /*  alteração de tamanho */
+  }
+
+
+  .form label .input:placeholder-shown + span {
+    top: 15px;
+    font-size: 0.9em; /*  alteração de tamanho */
+  }
+
+  .registro {
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    margin: auto;
+  }
+
+  /* Cadastro em si: texto */
+
+  .cad, .retorno{
+    color: rgba(88, 87, 87, 0.822);
+    font-size: 14px;
+  }
+
+  .retorno {
+    text-align: center;
+  }
+
+  /* Voltar */
+  .retorno a {
+    color: rgb(0, 0, 0);
+  }
+
+  .retorno a:hover {
+    text-decoration: underline rgb(0, 0, 0);
+  }
+
+
+  /* Animação */
+  .form label .input:focus + span,.form label .input:valid + span {
+    top: 30px;
+    font-size: 0.7em; /*  alteração de tamanho */
+    font-weight: 600;  /*  alteração de tamanho */
+
+  }
+
+    /* Enviar */
+  .enviar {
+    border: none;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    transform: .3s ease;
+  }
+
+/* Cabeçalho */
+header {
+    grid-area: cabecalho;
+    display: flex;
+    height: 100%;
+}
+
+/* Estilização de Textos */
+
+h1 {
+    color:antiquewhite;
+    margin: auto;
+    margin-top: 3%;
+    text-align: center;
+    font-size: 30px;
+}
